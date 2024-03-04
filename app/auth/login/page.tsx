@@ -4,7 +4,7 @@ import { useState, ChangeEvent, FormEvent } from "react";
 import Link from "next/link";
 import "../signup.css";
 
-const page = () => {
+const Page = () => {
   const initialFormData = {
     email: "",
     password: "",
@@ -90,4 +90,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

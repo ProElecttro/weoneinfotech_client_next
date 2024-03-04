@@ -13,7 +13,7 @@ interface FormData {
 }
 
 // Define SignUp component
-const page = () => {
+const Page = () => {
   // Define state using useState hook
   const [formData, setFormData] = useState<FormData>({
     email: "",
@@ -86,4 +86,4 @@ const page = () => {
 };
 
 // Export SignUp component
-export default page;
+export default Page;
