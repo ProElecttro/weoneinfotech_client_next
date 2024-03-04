@@ -1,6 +1,5 @@
 "use client"
 
-import React from "react";
 import { AiOutlineSearch, AiOutlineUser, AiOutlineShoppingCart } from "react-icons/ai";
 import { CiHeart } from "react-icons/ci";
 import { MdShoppingCartCheckout } from "react-icons/md";
@@ -15,7 +14,7 @@ function Navbar() {
     <div className={styles.navbar}>
       <div className={styles.navbarLogo}>
         <div className={styles.hamburger}>
-          <RxHamburgerMenu />
+          <Link href="/components/sidebar"><RxHamburgerMenu /></Link>
         </div>
         <LogoContainer title="We One Infotech" />
       </div>

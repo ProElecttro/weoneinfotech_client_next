@@ -1,5 +1,5 @@
 import "react";
-import Logo from "C:/Users/purus/OneDrive/Desktop/weoneinfotech/client/app/assets/WeOneInfotech_Logo.png";
+import Logo from "./WeOneInfotech_Logo.png";
 import style from "./LogoContainer.module.css";
 
 import Link from "next/link";
