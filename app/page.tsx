@@ -1,3 +1,5 @@
+import Navbar from "./components/navbar/navbar"
+
 type Repository = {
   id: number,
   name: string,
@@ -7,7 +9,7 @@ type Repository = {
 export default async function page() {
   return (
     <div>
-      <p>nkfnijnkj</p>
+      <Navbar/>
     </div>
   )
 }
