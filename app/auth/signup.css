@@ -1,0 +1,92 @@
+.register {
+    width: 80%;
+    max-width: 600px;
+    padding: 12px;
+    margin-inline: auto;
+    margin-block: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 123, 255, 0.3);
+}
+
+.title {
+    font-size: 33px;
+    border-bottom: 1px solid #000;
+    margin-bottom: 12px;
+    padding-bottom: 4px;
+}
+
+label {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.inputBox {
+    width: 96%;
+    padding: 10px;
+    border: 1px solid #c4c4c4;
+    border-radius: 8px;
+    font-size: 16px;
+    opacity: 0.7;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+    margin-bottom: 10px;
+}
+
+.inputBox:focus {
+    opacity: 1;
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+.signinBtn{
+    width: 100px;
+    height: 2.5rem;
+    border-radius: 8px;
+    border: none;
+    margin: 0 0 20px auto;
+    background-color: rgba(166, 213, 240, 0.772);
+    box-shadow: 0px 0px 1px #000;
+}
+
+.signinBtn:hover{
+    scale: 1.05;
+    border-color: aqua;
+    outline: none;
+}
+
+.signup{
+    background-color: transparent;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.newID{
+    background-color: transparent;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.signupBtn{
+    width: 60%;
+    height: 2.5rem;
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(204, 236, 255, 0.772);
+    box-shadow: 0 0 3px rgba(159, 183, 197, 0.772);
+    margin-bottom: 10px;
+    margin-top: auto;
+}
+
+.signupBtn:hover{
+    scale: 1.01;
+    outline: none;
+}
+
+@media only screen and (max-width: 768px){
+    .register{
+        
+    }
+}
